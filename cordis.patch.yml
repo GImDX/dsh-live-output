@@ -1,0 +1,5 @@
+# dsh-live-output 插件层（bundle patch）。
+# 安装后此层插入组合配置；host 插件在 lib/index.js，client 插件在 lib/client.js。
+- insert:
+    - id: dsh-live-output
+      name: dsh-live-output
