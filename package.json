@@ -7,9 +7,10 @@
   "exports": {
     ".": { "default": "./lib/index.js" },
     "./client": { "default": "./lib/client.js" },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
   },
-  "files": ["lib", "cordis.patch.yml", "README.zh.md"],
+  "files": ["lib", "cordis.patch.yml", "README.md"],
   "license": "MIT",
   "engines": { "node": ">=20" },
   "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "live-output", "streaming", "terminal"],
